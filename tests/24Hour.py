@@ -8,8 +8,7 @@ def test_login_Logout(page: Page) -> None:
     login_page.login("archanabkp@gmail.com", "Nish*2010")
     logout_page = LogoutPage(page)
     logout_page.logout()
-    print ("Made some changes to check git actions")
-    print ("Made some changes to check git actions")
+
     
     
 
